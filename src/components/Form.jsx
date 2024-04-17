@@ -8,7 +8,7 @@ import NumberAdjust from "./NumberAdjust";
 import Slider from "./Slider";
 export default function Form() {
   const minPasswordLength = 10;
-  const url_base = "https://dcnehdfyvg.execute-api.us-east-1.amazonaws.com/default";
+  const url_base = "https://dcnehdfyvg.execute-api.us-east-1.amazonaws.com/";
   const maxPasswordLength = 50;
   const minNumberOfLetters = 2;
   const [uppercaseSelected, setUppercaseSelected] = useState(true);
