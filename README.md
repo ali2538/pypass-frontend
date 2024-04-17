@@ -1,8 +1,7 @@
-# React + Vite
+### Password generator with a react frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The app connects to the python script written in [this github repo](https://github.com/ali2538/pypass) to retrieve the created password.
 
-Currently, two official plugins are available:
+The python script is run in an aws lambda function.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A running example of this can be found and tested here.
